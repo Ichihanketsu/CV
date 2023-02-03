@@ -1,4 +1,66 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+:root {
+  --background: #122c34;
+  --highlight: #f4b942;
+  --light: #ececec;
+  --primary: #93b7be;
+  --secondary: #b3ccd1;
+  --dark: #0A1A1E;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+  padding: 0 70px;
+}
+
+
+h1 {
+  color: var(--light);
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  color: var(--secondary);
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h4 {
+  color: var(--highlight);
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 20px;
+  color: var(--secondary);
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.highlight-text {
+  color: var(--highlight);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* html, body {
     margin: 0;
     padding: 0;
 }
@@ -29,10 +91,10 @@ nav ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+  } */
   
   /* Change the link color to #111 (black) on hover */
-  nav li a:hover {
+  /* nav li a:hover {
     background-color: rgb(83, 94, 128);
   }
   
@@ -94,10 +156,10 @@ nav ul {
   .bold-li {
     font-weight: bold;
     margin: 10px;
-  }
+  } */
 
   /* Style the navigation menu */
-.topnav {
+/* .topnav {
   display: none;
   overflow: hidden;
   background-color: #333;
@@ -106,41 +168,41 @@ nav ul {
   left: 0;
   width: 100%;
   z-index: 100;
-}
+} */
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+/* .topnav #myLinks {
   display: none;
-}
+} */
 
 /* Style navigation menu links */
-.topnav a {
+/* .topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
-}
+} */
 
 /* Style the hamburger menu */
-.topnav a.icon {
+/* .topnav a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-}
+} */
 
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+/* .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
+} */
 
 /* Style the active link (or home/logo) */
-.active {
+/* .active { */
   /* background-color: #04AA6D; */
-  color: white;
+  /* color: white;
 }
   
   @media (max-width: 600px) {
@@ -151,4 +213,4 @@ nav ul {
     .topnav {
       display: block;
     }
-  }
+  } */

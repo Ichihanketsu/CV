@@ -1,0 +1,116 @@
+/* NAVIGATION BAR */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark);
+}
+
+.nav-button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+
+.highlight-button {
+  display: block;
+  color: var(--highlight);
+  border: var(--highlight) 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 12px;
+  margin: 4px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: var(--background);
+  color: var(--highlight)
+}
+
+.highlight-button:hover {
+  background-color: var(--highlight);
+  color: var(--dark);
+}
+
+
+
+
+.intro-block {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 15px;
+}
+
+.intro-block h4 {
+  margin-top: 20px;
+}
+
+.intro-space {
+  margin-top: 25px;
+}
+
+
+
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    /* width: 100%; */
+}
+
+.logo:nth-child(2) {
+    transition-delay: 200ms;
+}
+.logo:nth-child(3) {
+    transition-delay: 400ms;
+}
+.logo:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+/* LEFT BAR SOCIAL ICONS */
+.left-bar {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  bottom: 20px;
+  left: 20px;
+}
+
+.social-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-left a {
+  color: #fff;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.social-left a:hover {
+  color: #f4b942;
+}
+
+

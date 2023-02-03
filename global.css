@@ -60,6 +60,13 @@ html {
   scroll-behavior: smooth;
 }
 
+li {
+  color: var(--highlight);
+  margin-left: 15px;
+}
+
+
+
 /* html, body {
     margin: 0;
     padding: 0;

@@ -28,6 +28,7 @@ section {
 @media (max-width: 800px) {
   section {
     padding: 0px;
+    margin: 0px;
   }
 }
 
@@ -173,7 +174,7 @@ nav ul {
   } */
 
   /* Style the navigation menu */
-/* .topnav {
+.topnav {
   display: none;
   overflow: hidden;
   background-color: #333;
@@ -182,41 +183,41 @@ nav ul {
   left: 0;
   width: 100%;
   z-index: 100;
-} */
+}
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-/* .topnav #myLinks {
+.topnav #myLinks {
   display: none;
-} */
+}
 
 /* Style navigation menu links */
-/* .topnav a {
+.topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
   font-size: 17px;
   display: block;
-} */
+}
 
 /* Style the hamburger menu */
-/* .topnav a.icon {
+.topnav a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-} */
+}
 
 /* Add a grey background color on mouse-over */
-/* .topnav a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
-} */
+}
 
 /* Style the active link (or home/logo) */
-/* .active { */
-  /* background-color: #04AA6D; */
-  /* color: white;
+.active {
+  background-color: var(--dark);
+  color: white;
 }
   
   @media (max-width: 600px) {
@@ -227,4 +228,4 @@ nav ul {
     .topnav {
       display: block;
     }
-  } */
+}

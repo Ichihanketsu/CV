@@ -215,4 +215,40 @@ nav li a:hover {
   color: #f4b942;
 }
 
+#contact {
+  display: none;
+}
 
+@media (max-width: 600px) {
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #contact h2 {
+    margin: 10px;
+  }
+
+  .left-bar {
+    display: none;
+  }
+
+  .social-left {
+    flex-direction: row;
+  }
+
+  .social-left a {
+    margin: 0 10px;
+  }
+
+  .skills-list {
+    margin: 10px;
+  }
+
+  .text-width {
+    width: auto;
+    margin-right: 10px;
+  }
+}

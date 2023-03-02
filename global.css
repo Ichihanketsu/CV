@@ -1,4 +1,81 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+:root {
+  --background: #122c34;
+  --highlight: #f4b942;
+  --light: #ececec;
+  --primary: #93b7be;
+  --secondary: #b3ccd1;
+  --dark: #0A1A1E;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+  padding: 0 70px;
+}
+
+@media (max-width: 800px) {
+  section {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+
+h1 {
+  color: var(--light);
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  color: var(--secondary);
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h4 {
+  color: var(--highlight);
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 20px;
+  color: var(--secondary);
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.highlight-text {
+  color: var(--highlight);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+li {
+  color: var(--highlight);
+  margin-left: 15px;
+}
+
+
+
+/* html, body {
     margin: 0;
     padding: 0;
 }
@@ -29,10 +106,10 @@ nav ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+  } */
   
   /* Change the link color to #111 (black) on hover */
-  nav li a:hover {
+  /* nav li a:hover {
     background-color: rgb(83, 94, 128);
   }
   
@@ -94,7 +171,7 @@ nav ul {
   .bold-li {
     font-weight: bold;
     margin: 10px;
-  }
+  } */
 
   /* Style the navigation menu */
 .topnav {
@@ -116,7 +193,7 @@ nav ul {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -139,7 +216,7 @@ nav ul {
 
 /* Style the active link (or home/logo) */
 .active {
-  /* background-color: #04AA6D; */
+  background-color: var(--dark);
   color: white;
 }
   
@@ -151,4 +228,4 @@ nav ul {
     .topnav {
       display: block;
     }
-  }
+}

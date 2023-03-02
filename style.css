@@ -54,7 +54,42 @@ nav li a:hover {
   margin: 0px;
 }
 
-.skills-list li::marker {
+.work-item {
+  display: flex;
+  width: 600px;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--dark);
+}
+
+.work-item:hover {
+  transform: scale(1.1);
+  transition: 1s all ease;
+}
+
+.work-item a {
+  text-decoration: none;
+}
+
+.work-card img {
+  width: 550px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.skills-list li::marker, .work-list li::marker {
   content: '⯈';
 }
 

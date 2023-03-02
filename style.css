@@ -133,7 +133,6 @@ nav li a:hover {
     transition-delay: 1000ms;
 }
 
-/* PROJECTS */
 .projects {
   display: flex;
   flex-direction: row;
@@ -175,15 +174,12 @@ nav li a:hover {
 
 .unity img {
   background-color: #fff;
-  /* padding: 20px 20px 0 20px; */
-  /* border-radius: 100%; */
 }
 
 #work h2, #projects h2 {
   margin: 25px 0;
 }
 
-/* LEFT BAR SOCIAL ICONS */
 .left-bar {
   position: fixed;
   display: flex;
@@ -242,7 +238,6 @@ nav li a:hover {
 
   .text-width {
     width: auto;
-    /* margin: 10px; */
   }
 
   .mobile {

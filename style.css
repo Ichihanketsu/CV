@@ -158,12 +158,6 @@ nav li a:hover {
   height: 320px;
   text-align: center;
 }
-@media (max-width: 500px) {
-  .project-card {
-    height: 320px;
-    width: 340px;
-  }
-}
 
 .project-card:hover {
   transform: scale(1.1);
@@ -186,7 +180,7 @@ nav li a:hover {
   /* border-radius: 100%; */
 }
 
-#work h2 {
+#work h2, #projects h2 {
   margin: 25px 0;
 }
 
@@ -249,6 +243,26 @@ nav li a:hover {
 
   .text-width {
     width: auto;
-    margin-right: 10px;
+    /* margin: 10px; */
+  }
+
+  .mobile {
+    margin: 20px;
+  }
+
+  .project-card {
+    height: 250px;
+    width: 340px;
+    margin: 20px;
+  }
+
+  .project-card img {
+    height: auto;
+    width: 340px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .project-title h2 {
+    font-size: 2em;
   }
 }

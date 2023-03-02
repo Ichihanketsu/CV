@@ -261,6 +261,10 @@ nav li a:hover {
     border-radius: 15px 15px 0 0;
   }
 
+  .project-title {
+    padding: 0;
+  }
+
   .project-title h2 {
     font-size: 2em;
   }

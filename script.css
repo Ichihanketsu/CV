@@ -16,3 +16,13 @@
       transition: none;
     }
   }
+
+  @media (max-width: 600px) {
+    .hidden {
+      filter: none;
+    }
+
+    .show {
+      filter: none;
+    }
+  }

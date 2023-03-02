@@ -32,7 +32,7 @@
     </ul>
   </nav>
   <div class="topnav">
-    <a href="#aboutMe" class="active">Logo</a>
+    <a href="#aboutMe" class="active">Nicholas Shamrock</a>
     <div id="myLinks">
       <a href="#aboutMe">About Me</a>
       <a href="#experience">Experience</a>
@@ -41,119 +41,125 @@
       <a href="#contact">Contact</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 
-  <section id="aboutMe" class="hidden">
-    <div class="intro-block">
-      <h4>Hi, my name is</h4>
-      <h1>Nicholas Shamrock.</h1>
-      <h2>I am a Software Developer.</h2>
-      <p class="intro-space">
-        I am currently a <span class="highlight-text">full-stack developer</span> and have some experience in design,<br>
-        With more than a years experience with the <span class="highlight-text">Angular framework, Firebase and Node.js.</span></p>
-    </div>
-  </section>
-
-  <section id="experience" class="hidden">
-    <div class="intro-block">
-      <div class="intro-content">
-        <div>
-          <h2>About me</h2>
-          <p class="text-width">
-            Since 2021 I decided to have a complete career change because of my love for computers.<br>
-            I studied Python and Java, since haven't stopped learning.
-          </p>
-          <br>
-          <p class="text-width">
-            Today I am a Full Stack developer, I put in the effort with the help of my mentor and it paid off.<br>
-            My focus now is to further my knowledge and focus more on backend development.
-          </p>
-          <br>
-          <p class="text-width">I have been working with these technologies recently:</p>
-          <ul class="skills-list">
-            <li class="list">Angular</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Unity with C#</li>
-          </ul>
-          <div class="logo">
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="angular"/>
-            </div>
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript"/>
-            </div>
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
-            </div>
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python"/>
-            </div>
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java"/>
-            </div>
-            <div class="logo hidden">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="c#"/>
-            </div>
-          </div>
-          <div class="hidden">
-            <img src="https://www.codewars.com/users/Ichihanketsu/badges/large" alt="codewars">
-          </div>
-        </div>
-        <div class="photo">
-          <img src="images/pic.png" alt="photo">
-        </div>
+  <div onclick="closeMenu()">
+    
+    <section id="aboutMe" class="hidden mobile">
+      <div class="intro-block">
+        <h4>Hi, my name is</h4>
+        <h1>Nicholas Shamrock.</h1>
+        <h2>I am a Software Developer.</h2>
+        <p class="intro-space">
+          I am currently a <span class="highlight-text">full-stack developer</span> and have some experience in design,<br>
+          With more than a years experience with the <span class="highlight-text">Angular framework, Firebase and Node.js.</span></p>
       </div>
-      
-    </div>
-  </section>
+    </section>
 
-  <section id="work" class="hidden">
-    <h2>Work</h2>
-  </section>
+    <section id="experience" class="hidden mobile">
+      <div class="intro-block">
+        <div class="intro-content">
+          <div>
+            <h2>About me</h2>
+            <p class="text-width">
+              Since 2021 I decided to have a complete career change because of my love for computers.<br>
+              I studied Python and Java, since haven't stopped learning.
+            </p>
+            <br>
+            <p class="text-width">
+              Today I am a Full Stack developer, I put in the effort with the help of my mentor and it paid off.<br>
+              My focus now is to further my knowledge and focus more on backend development.
+            </p>
+            <br>
+            <p class="text-width">I have been working with these technologies recently:</p>
+            <ul class="skills-list">
+              <li class="list">Angular</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Unity with C#</li>
+            </ul>
+            <div class="logo">
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="angular"/>
+              </div>
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript"/>
+              </div>
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
+              </div>
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python"/>
+              </div>
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java"/>
+              </div>
+              <div class="logo hidden">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="c#"/>
+              </div>
+            </div>
+            <div class="hidden">
+              <img src="https://www.codewars.com/users/Ichihanketsu/badges/large" alt="codewars">
+            </div>
+          </div>
+          <div class="photo">
+            <img src="images/pic.png" alt="photo">
+          </div>
+        </div>
+        
+      </div>
+    </section>
 
-  <section id="projects" class="hidden">
-    <h2>Projects</h2>
-    <div class="projects">
-      <a href="https://tradeupcycling.co.za/" target="_blank" class="project-card">
-        <div>
-          <img src="images/trade-up.jpg" alt="trade-up">
-        </div>
-        <div class="project-title">
-          <h2>
-            Trade-up Cycling
-          </h3>
-        </div>
-      </a>
-      <a href="https://tradeupcycling.co.za/" target="_blank" class="project-card unity">
-        <div>
-          <img src="assets/unity.png" alt="unity"/>
-        </div>
-        <div class="project-title">
-          <h2>
-            Space Invaders Single player
-          </h3>
-        </div>
-      </a>
-      <a href="https://github.com/Ichihanketsu/platformer" target="_blank" class="project-card unity">
-        <div>
-          <img src="assets/unity.png" alt="unity"/>
-        </div>
-        <div class="project-title">
-          <h2>
-            Platformer local Multiplayer
-          </h3>
-        </div>
-      </a>
-    </div>
-  </section>
+    <section id="work" class="hidden mobile">
+      <h2>Work</h2>
 
-  <section id="contact" class="hidden">
+      <div class="projects">
+        <a href="https://tradeupcycling.co.za/" target="_blank" class="project-card">
+          <div>
+            <img src="images/trade-up.jpg" alt="trade-up">
+          </div>
+          <div class="project-title">
+            <h2>
+              Trade-up Cycling
+            </h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="projects" class="hidden mobile">
+      <h2>Projects</h2>
+      <div class="projects">
+        <a href="https://tradeupcycling.co.za/" target="_blank" class="project-card unity">
+          <div>
+            <img src="assets/unity.png" alt="unity"/>
+          </div>
+          <div class="project-title">
+            <h2>
+              Space Invaders Single player
+            </h3>
+          </div>
+        </a>
+        <a href="https://github.com/Ichihanketsu/platformer" target="_blank" class="project-card unity">
+          <div>
+            <img src="assets/unity.png" alt="unity"/>
+          </div>
+          <div class="project-title">
+            <h2>
+              Platformer local Multiplayer
+            </h3>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <section id="contact" class="hidden mobile">
     <h2>Contact</h2>
     <div>
       <div class="social-left">

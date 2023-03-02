@@ -66,6 +66,7 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  /* width: fit-content; */
 }
 
 li {
@@ -227,5 +228,9 @@ nav ul {
 
     .topnav {
       display: block;
+    }
+
+    html {
+      width: fit-content;
     }
 }

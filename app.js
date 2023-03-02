@@ -12,11 +12,18 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-function myFunction() {
+function openMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+  }
+}
+
+function closeMenu() {
+  const x = document.getElementById("myLinks");
+  if (x) {
+    x.style.display = "none";
   }
 }

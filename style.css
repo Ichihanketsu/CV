@@ -23,7 +23,7 @@ nav ul {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-} 
+}
 
 .highlight-button {
   display: block;
@@ -175,6 +175,10 @@ nav li a:hover {
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+}
+
+.projects a {
+  margin: 15px;
 }
 
 .project-card {
